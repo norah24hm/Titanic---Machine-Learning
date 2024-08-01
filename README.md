@@ -230,7 +230,7 @@ sns.countplot(x='Pclass', hue='Survived', data=data)
 We can compare with other features to have more insights
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------
-#### 4. Model Building
+### 4. Model Building
 4.1 Separation
 
 Separating features and target so that we can prepare the data for training machine learning models. In the Titanic dataset, the Survived column is the target variable, and the other columns are the features.
@@ -282,7 +282,7 @@ log_reg.fit(x_train, y_train)
 ![log-reg](https://github.com/user-attachments/assets/dc9e2f85-a027-4c19-a770-287e76b28016)
 
 
-5. Model Evaluation
+### 5. Model Evaluation
 Model evaluation is crucial in machine learning to assess the performance of a trained model on testing data. The accuracy score, a common evaluation metric, measures the proportion of correct predictions out of all predictions. This helps to gauge the model's effectiveness, ensure it generalizes well to new data, and guide further improvements.
 
 Model Evaluation using Accuracy Score:
