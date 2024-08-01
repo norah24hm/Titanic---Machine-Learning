@@ -1,5 +1,7 @@
 # Titanic-Machine-Learning
-Predict survival on the Titanic
+Predict survival on the Titanic.
+
+This project aims to introduce the most important steps of data analysis and machine learning.
 
 -------------------------------------------------------------------------------------------------------------------------------------
 ### Download the dataset:
