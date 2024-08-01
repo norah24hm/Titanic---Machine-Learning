@@ -231,7 +231,7 @@ We can compare with other features to have more insights
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 ### 4. Model Building
-4.1 Separation
+#### 4.1 Separation
 
 Separating features and target so that we can prepare the data for training machine learning models. In the Titanic dataset, the Survived column is the target variable, and the other columns are the features.
 ```
@@ -239,7 +239,7 @@ x = data.drop(columns = ['Survived'], axis=1)
 y = data['Survived']
 ```
 
-4.2 Splitting the data into training data & Testing data
+#### 4.2 Splitting the data into training data & Testing data
 
 To build and evaluate a machine learning model effectively, it's essential to split the dataset into training and testing sets. The training set is used to train the model, allowing it to learn patterns and relationships within the data. The testing set, on the other hand, is used to evaluate the model's performance on unseen data, ensuring it can generalize well to new instances. This split helps prevent overfitting and provides a reliable estimate of the model's predictive accuracy.
 
@@ -261,7 +261,7 @@ By splitting the data in this way, we can train a model on the training set and 
 
 Now that we have our data split into training and testing sets, we're ready to start building and evaluating our machine learning model.
 
-4.3 Model Training
+#### 4.3 Model Training
 
 Model training is a crucial step in the machine learning where the algorithm learns from the training data to make predictions. Logistic Regression is a commonly used algorithm for binary classification tasks, such as predicting whether a passenger survived in the Titanic dataset. By training the model on our training data, we aim to find the best-fit parameters that minimize prediction errors. Once trained, this model can be used to predict outcomes on new, unseen data. 
 
@@ -285,7 +285,7 @@ log_reg.fit(x_train, y_train)
 ### 5. Model Evaluation
 Model evaluation is crucial in machine learning to assess the performance of a trained model on testing data. The accuracy score, a common evaluation metric, measures the proportion of correct predictions out of all predictions. This helps to gauge the model's effectiveness, ensure it generalizes well to new data, and guide further improvements.
 
-Model Evaluation using Accuracy Score:
+#### 5.1 Model Evaluation using Accuracy Score:
 ```
 from sklearn.metrics import accuracy_score
 
